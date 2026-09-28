@@ -14,7 +14,7 @@ NN_ordinal_with_bounds: Trains and evaluates single-layer neural network models 
 # Scheme
 The following scheme corresponds to the model developed for CORAL ordinal regression (Cao et al., 2020). The score layer is common in the other models as well and is used as a basis to calculate loss and provide predictions.
 
-
+![Architecture](nn_ordinal_scheme_new.jpg)
 
 # References
 Cao, W., Mirjalili, V., & Raschka, S. (2020). Rank consistent ordinal regression for neural networks with application to age estimation. Pattern Recognition Letters, 140, 325-331.
