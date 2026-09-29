@@ -1,7 +1,7 @@
 # Skill_Effects_NN
 Modeling associations between skill frequencies and target variables in OJAs using feedforward neural networks (NN). Three different models are presented, accounting for consistent modeling of ordinal variables, common continuous variables, and ordinal variables with known boundaries. Associations are summarized after several bootstrap resampling runs (defined by the user). 
 
-The models are employed to address relationships between skill frequencies and target variables within Online Job Advertisements (OJAs), where the code snippets used are also presented in the provided files. 
+These models were employed to address relationships between skill frequencies and target variables within Online Job Advertisements (OJAs), where the code snippets used are also presented in the provided files. 
 
 These examples include a pandas DataFrame named skill_data_mat that stores information about skill frequencies (count), categorical variables used as control variables, timestamps scaled from 0 to 1 using min-max scaling, and ordinal target variables concerning education, experience, and salary levels. 
 
